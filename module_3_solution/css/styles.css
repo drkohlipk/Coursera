@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/***Start Header***/
+#topbar {
+	background-color: blue;
+}
+.navbar-brand {
+	height: 70px;
+}
+.navbar-brand h1 {/*Company Name*/
+	margin-top: 0;
+	padding-top: 0;
+	color: white;
+}
+#nav-list {/*Drop Down Menu*/
+	margin: 0 -15px 0;
+	padding: 0;
+	background-color: #3366FF;
+}
+.navbar-default .navbar-nav > li > a {/*Drop Down Menu Content*/
+	color: white;
+	margin-top: 10px;
+}
+.navbar-header button.navbar-toggle {/*Centers Menu Button*/
+	margin-top: 17px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {/*Sets Menu Button Color*/
+  	border: 1px solid white;
+}
+#nav-list .divider {
+	border: 1px solid white;
+}
+/***End Header***/
+
+/***Start Body***/
+#main-content h2 {
+	margin-bottom: 35px;
+}
+#chicken {
+	background-color: #FEFFE7;
+}
+/***End Body***/
+
+@media only screen and (max-width: 767px) {
+	#chicken {
+		margin: 0 15px 0;
+	}	
+}
